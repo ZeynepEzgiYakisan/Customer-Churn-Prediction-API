@@ -37,6 +37,9 @@ Customer-Churn-Prediction-API/
 pip install -r requirements.txt
 python -m uvicorn app:app --reload
 ```
+## Live Demo
+
+API Endpoint: https://customer-churn-api-ezgi-e8bsbagubrbvf6a3.swedencentral-01.azurewebsites.net/docs
 
 Open Swagger UI:
 
