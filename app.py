@@ -4,6 +4,8 @@ from pydantic import BaseModel
 import pandas as pd
 import joblib
 
+import os
+import joblib
 # --------------------------------------------------
 # Create FastAPI App
 # --------------------------------------------------
@@ -17,9 +19,20 @@ app = FastAPI(
 # Load Model
 # --------------------------------------------------
 
-model = joblib.load("model/xgboost_churn_model.pkl")
-scaler = joblib.load("model/scaler.pkl")
-label_encoders = joblib.load("model/label_encoders.pkl")
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+model = joblib.load(
+    os.path.join(BASE_DIR, "model", "xgboost_churn_model.pkl")
+)
+
+scaler = joblib.load(
+    os.path.join(BASE_DIR, "model", "scaler.pkl")
+)
+
+label_encoders = joblib.load(
+    os.path.join(BASE_DIR, "model", "label_encoders.pkl")
+)
 
 # --------------------------------------------------
 # Request Body
