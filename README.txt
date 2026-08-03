@@ -1,11 +1,12 @@
 # Customer Churn Prediction API & Power BI Dashboard
 A Machine Learning API built with FastAPI and XGBoost to predict customer churn based on customer demographics, subscription details, and service usage.
-
+Interactive Power BI dashboard for business intelligence, customer segmentation, revenue analysis, and machine learning insights.
 ## Dashboard Preview
 
 ### Executive Overview
 
 ![Executive Overview](images/customer-churn -overview.png)
+
 ## Features
 
 - Customer churn prediction
@@ -39,13 +40,13 @@ Customer-Churn-Prediction-API/
 ├── README.md
 │
 ├── Dashboard/
-│   └── customerchurnpowerbı.pdf
+│   └── customerchurnpowerbi.pdf
 │
 ├── images/
-│   ├── customer-churn -overview.png
-│   ├── customer-churn - customeranalysis.png
-│   ├── customer-churn -revenueanalysis.png
-│   ├── customer-churn -machinelearninginsight.png
+│   ├── customer_churn_overview.png
+│   ├── customer_churn_customer_analysis.png
+│   ├── customer_churn_revenue_analysis.png
+│   ├── customer_churn_model_insights.png
     ├── logistic_matrix.png
     ├── randomforest_matrix.png
     ├── xgboost_matrix.png
@@ -56,7 +57,7 @@ Customer-Churn-Prediction-API/
 └── model/
     ├── xgboost_churn_model.pkl
     ├── scaler.pkl
-    └── label_encoders.pk
+    └── label_encoders.pkl
 ```
 
 ## Installation
@@ -67,7 +68,9 @@ python -m uvicorn app:app --reload
 ```
 ## Live Demo
 
-API Endpoint: https://customer-churn-api-ezgi-e8bsbagubrbvf6a3.swedencentral-01.azurewebsites.net/docs
+### Azure REST API (Swagger)
+
+https://customer-churn-api-ezgi-e8bsbagubrbvf6a3.swedencentral-01.azurewebsites.net/docs
 
 Open Swagger UI:
 
@@ -153,6 +156,24 @@ Dashboard Pages
 
 ![Model Insights](images/customer-churn -machinelearninginsight.png)
 
+## Project Highlights
+
+- End-to-End Machine Learning Project
+- Customer Churn Prediction with XGBoost
+- REST API built using FastAPI
+- Cloud Deployment on Azure App Service
+- Interactive Power BI Dashboard
+
+## Dashboard
+
+📄 Power BI Dashboard PDF
+
+[Download Dashboard](Dashboard/customerchurnpowerbi.pdf)
+
 ## Author
 
 **Zeynep Ezgi Yakışan**
+
+Management Information Systems Student
+
+Machine Learning • Data Science • Power BI • Azure
