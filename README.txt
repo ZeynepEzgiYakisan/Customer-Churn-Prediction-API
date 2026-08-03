@@ -120,6 +120,39 @@ http://127.0.0.1:8000/docs
 
 **XGBoost** was selected as the final model due to its strong overall performance and balanced classification metrics.
 
+## Power BI Dashboard
+
+The project also includes an interactive Power BI dashboard for business intelligence and customer churn analysis.
+
+Dashboard Pages
+
+- Executive Overview
+- Customer Analysis
+- Revenue Analysis
+- Model Insights
+
+### Executive Overview
+
+![Executive Overview](images/customer-churn -overview.png)
+
+---
+
+### Customer Analysis
+
+![Customer Analysis](images/customer-churn - customeranalysis.png)
+
+---
+
+### Revenue Analysis
+
+![Revenue Analysis](images/customer-churn -revenueanalysis.png)
+
+---
+
+### Model Insights
+
+![Model Insights](images/customer-churn -machinelearninginsight.png)
+
 ## Author
 
 **Zeynep Ezgi Yakışan**
