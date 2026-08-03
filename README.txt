@@ -5,7 +5,7 @@ Interactive Power BI dashboard for business intelligence, customer segmentation,
 
 ### Executive Overview
 
-![Executive Overview](images/ccustomer_churn_overview.png)
+![Executive Overview](images/customer_churn_overview.png)
 
 ## Features
 
