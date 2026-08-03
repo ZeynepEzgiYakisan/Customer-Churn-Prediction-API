@@ -1,13 +1,22 @@
-# Customer Churn Prediction API
-
+# Customer Churn Prediction API & Power BI Dashboard
 A Machine Learning API built with FastAPI and XGBoost to predict customer churn based on customer demographics, subscription details, and service usage.
 
+## Dashboard Preview
+
+### Executive Overview
+
+![Executive Overview](images/customer-churn -overview.png)
 ## Features
 
 - Customer churn prediction
 - Probability score for each prediction
 - REST API with FastAPI
 - Interactive Swagger documentation
+- Interactive Power BI Dashboard
+- Business KPI Monitoring
+- Customer Churn Analysis
+- Revenue Analysis
+- Machine Learning Model Insights
 
 ## Technologies
 
@@ -17,18 +26,37 @@ A Machine Learning API built with FastAPI and XGBoost to predict customer churn 
 - Scikit-learn
 - Pandas
 - Joblib
+- Power BI
+- Azure App Service
 
 ## Project Structure
 
 ```text
 Customer-Churn-Prediction-API/
-│── app.py
-│── requirements.txt
-│── README.md
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── Dashboard/
+│   └── customerchurnpowerbı.pdf
+│
+├── images/
+│   ├── customer-churn -overview.png
+│   ├── customer-churn - customeranalysis.png
+│   ├── customer-churn -revenueanalysis.png
+│   ├── customer-churn -machinelearninginsight.png
+    ├── logistic_matrix.png
+    ├── randomforest_matrix.png
+    ├── xgboost_matrix.png
+    ├── azure-live-demo.png
+    ├── local-live-demo.png
+│   └── feature_importance.png
+│
 └── model/
     ├── xgboost_churn_model.pkl
     ├── scaler.pkl
-    └── label_encoders.pkl
+    └── label_encoders.pk
 ```
 
 ## Installation
